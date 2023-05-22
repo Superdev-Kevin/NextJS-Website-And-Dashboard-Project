@@ -4335,10 +4335,15 @@
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/chain-icons/-/chain-icons-1.0.5.tgz#8a351024337d26a2ceee394f927513d72e1d31a0"
   integrity sha512-NsDboaLji7IOOjgoz/A/qf7A5EDfZN3qgyqt+GOxr5/YXzzyH2Obk8grwv2gDwP2mF5T5RjNex0I8kwA+tyKrw==
 
-"@thirdweb-dev/chains@0.1.17", "@thirdweb-dev/chains@^0.1.17":
+"@thirdweb-dev/chains@0.1.17":
   version "0.1.17"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.17.tgz#2fe65110de903db5cd098c57c858a13c239de077"
   integrity sha512-kjFM9AqbJ1oRjg4rVYFIE05mbZUN9mX4Sk3XjNc8kvR4USTTLILW4REY1ABoE0acNtR0fI2kug8Uimh2WHlPjQ==
+
+"@thirdweb-dev/chains@0.1.18", "@thirdweb-dev/chains@^0.1.17":
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.18.tgz#deb081e33b91d402f2e86a72528a9f9803877fce"
+  integrity sha512-SoWWDugdYNWl7bKMtw/OtO9IN461G+GktzOSWmpsI49wz2GBMdGLR1QznyR3oswoOngUeM8+vOyqlP7zC/fWLA==
 
 "@thirdweb-dev/contracts-js@1.3.4":
   version "1.3.4"
@@ -4398,12 +4403,35 @@
     react-qr-code "^2.0.11"
     tiny-invariant "^1.2.0"
 
-"@thirdweb-dev/sdk@3.10.16", "@thirdweb-dev/sdk@^3.10.16":
+"@thirdweb-dev/sdk@3.10.16":
   version "3.10.16"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-3.10.16.tgz#610e01ce891cf939f982fa84fa3f7dbcecbd43fb"
   integrity sha512-A+5OiVy3rd1al6IhJVUm2cpNs32jmIBtWrge4GS/Jhl4JHT6btRrzaxuj8Ltpn4j4/tWXbbMonszz+3o8d+BhA==
   dependencies:
     "@thirdweb-dev/chains" "0.1.17"
+    "@thirdweb-dev/contracts-js" "1.3.4"
+    "@thirdweb-dev/generated-abis" "0.0.1"
+    "@thirdweb-dev/storage" "1.1.3"
+    abitype "^0.2.5"
+    bn.js "^5.2.1"
+    bs58 "^5.0.0"
+    buffer "^6.0.3"
+    cross-fetch "^3.1.5"
+    eventemitter3 "^5.0.0"
+    fast-deep-equal "^3.1.3"
+    merkletreejs "^0.2.24"
+    tiny-invariant "^1.2.0"
+    tweetnacl "^1.0.3"
+    uuid "^9.0.0"
+    yaml "^2.1.1"
+    zod "^3.20.2"
+
+"@thirdweb-dev/sdk@^3.10.17":
+  version "3.10.17"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-3.10.17.tgz#9176c8dea83d45aca79241d62603f784ddc5eddf"
+  integrity sha512-DRWl+SJ7x918zhvsngFGLR3Eg+jZI0FPlntyIy55VDT4LHmb0Ix1zaO0eT/5yfKu8ZPsSZOKd2ArLopncRpJnA==
+  dependencies:
+    "@thirdweb-dev/chains" "0.1.18"
     "@thirdweb-dev/contracts-js" "1.3.4"
     "@thirdweb-dev/generated-abis" "0.0.1"
     "@thirdweb-dev/storage" "1.1.3"

@@ -4335,10 +4335,15 @@
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/chain-icons/-/chain-icons-1.0.5.tgz#8a351024337d26a2ceee394f927513d72e1d31a0"
   integrity sha512-NsDboaLji7IOOjgoz/A/qf7A5EDfZN3qgyqt+GOxr5/YXzzyH2Obk8grwv2gDwP2mF5T5RjNex0I8kwA+tyKrw==
 
-"@thirdweb-dev/chains@0.1.17", "@thirdweb-dev/chains@^0.1.17":
+"@thirdweb-dev/chains@0.1.17":
   version "0.1.17"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.17.tgz#2fe65110de903db5cd098c57c858a13c239de077"
   integrity sha512-kjFM9AqbJ1oRjg4rVYFIE05mbZUN9mX4Sk3XjNc8kvR4USTTLILW4REY1ABoE0acNtR0fI2kug8Uimh2WHlPjQ==
+
+"@thirdweb-dev/chains@0.1.26", "@thirdweb-dev/chains@^0.1.17":
+  version "0.1.26"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/chains/-/chains-0.1.26.tgz#2a59ef267b641c7cdac46017eb03778b67ec0639"
+  integrity sha512-+PjKn5bmg8Ua8OR+RwqnrGrQrYDvshv85EKvttnTqJmCdsvWMsPY2XXuDSpqg5ovKqgSYXgdw+dMEpyZKiZrXw==
 
 "@thirdweb-dev/contracts-js@1.3.4":
   version "1.3.4"
@@ -4347,10 +4352,22 @@
   dependencies:
     "@thirdweb-dev/contracts" "3.4.7-0"
 
+"@thirdweb-dev/contracts-js@1.3.7":
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/contracts-js/-/contracts-js-1.3.7.tgz#9a1aeafe89a92b82e11da4bdea6a827041607d7a"
+  integrity sha512-YMa7ifoGyzU0F+fbPjgXLzXLyTuR6L5GdSW/kYvz4PTWOIvZFHdwLyoPpe07J3//i+Xh7Dr4X36lcP28a+b7OQ==
+  dependencies:
+    "@thirdweb-dev/contracts" "3.5.9"
+
 "@thirdweb-dev/contracts@3.4.7-0":
   version "3.4.7-0"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/contracts/-/contracts-3.4.7-0.tgz#2279534f03ea0d40395576fa539faf9a71957483"
   integrity sha512-yMom2CiaHuj9UZdvbG4EMq1XKAji7GfWfricgIIK+cnBwQoI1PnPwKVMko/4V/h0Jw9p3yZDL6BTscjPSlnL2Q==
+
+"@thirdweb-dev/contracts@3.5.9":
+  version "3.5.9"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/contracts/-/contracts-3.5.9.tgz#50b5f552112f3a899be57973869435ae77c5e1d2"
+  integrity sha512-RFKe4qFnqdd2cchuY8appDS5yyEckFV8nL8kE4HqQUKDil6LfQag42fE+cuzqRGTHsSTTfh9L/d84izdVtwzLw==
 
 "@thirdweb-dev/generated-abis@0.0.1", "@thirdweb-dev/generated-abis@^0.0.1":
   version "0.0.1"
@@ -4398,7 +4415,7 @@
     react-qr-code "^2.0.11"
     tiny-invariant "^1.2.0"
 
-"@thirdweb-dev/sdk@3.10.16", "@thirdweb-dev/sdk@^3.10.16":
+"@thirdweb-dev/sdk@3.10.16":
   version "3.10.16"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-3.10.16.tgz#610e01ce891cf939f982fa84fa3f7dbcecbd43fb"
   integrity sha512-A+5OiVy3rd1al6IhJVUm2cpNs32jmIBtWrge4GS/Jhl4JHT6btRrzaxuj8Ltpn4j4/tWXbbMonszz+3o8d+BhA==
@@ -4421,10 +4438,43 @@
     yaml "^2.1.1"
     zod "^3.20.2"
 
-"@thirdweb-dev/storage@1.1.3", "@thirdweb-dev/storage@^1.1.3":
+"@thirdweb-dev/sdk@^3.10.27":
+  version "3.10.27"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/sdk/-/sdk-3.10.27.tgz#bd7404a4ea0c5c4716c894976edd69792c25de20"
+  integrity sha512-VvB/fhwnjvQvcbnK8i/U1bHnNkksHUCFjfSZ9xumTzrjEcHPCrx25speCndTsnghoPHElwW1ldiAZoYCdEEKYw==
+  dependencies:
+    "@thirdweb-dev/chains" "0.1.26"
+    "@thirdweb-dev/contracts-js" "1.3.7"
+    "@thirdweb-dev/generated-abis" "0.0.1"
+    "@thirdweb-dev/storage" "1.1.5"
+    abitype "^0.2.5"
+    bn.js "^5.2.1"
+    bs58 "^5.0.0"
+    buffer "^6.0.3"
+    cross-fetch "^3.1.5"
+    eventemitter3 "^5.0.0"
+    fast-deep-equal "^3.1.3"
+    merkletreejs "^0.2.24"
+    tiny-invariant "^1.2.0"
+    tweetnacl "^1.0.3"
+    uuid "^9.0.0"
+    yaml "^2.1.1"
+    zod "^3.20.2"
+
+"@thirdweb-dev/storage@1.1.3":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@thirdweb-dev/storage/-/storage-1.1.3.tgz#dab2692d393c19ba41931fae0dde91ad69c48015"
   integrity sha512-V/hiJqf+zYY0Jfoc+jWx24hyRXtFIOt6yMAqz87Zv9ilIsaYyuBHRNOyFzvnmCQ8DMwj97Gt0lCFYyzXXo4HFw==
+  dependencies:
+    cross-fetch "^3.1.5"
+    form-data "^4.0.0"
+    ipfs-unixfs-importer "^7.0.1"
+    uuid "^9.0.0"
+
+"@thirdweb-dev/storage@1.1.5", "@thirdweb-dev/storage@^1.1.3":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/storage/-/storage-1.1.5.tgz#aa127adbd0ff23b7acc5221ceb5fde63ebebc4d0"
+  integrity sha512-P1q8P4yUV/EB7cLCbbAgkSqKAV/wbG1Lq/tBruU+Yvr1TplaUfK3gBT7sJBizuob+kCvSXjSQeisQG/duxVQaQ==
   dependencies:
     cross-fetch "^3.1.5"
     form-data "^4.0.0"
